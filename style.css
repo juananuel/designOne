@@ -1,0 +1,85 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  } */
+
+table, th, td {
+    border: 1px solid black;
+}
+table {
+    width: 500px;
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    color: blue;
+}
+
+.img_costumer-one, .img_costumer-two {
+    width: 100px;
+}
+
+/* {
+    RGB = Red, Green, Blue / valores van desde el 0 (negro) a F (blanco)
+    RGBA = Red, Green, Blue, Opacidad = valores desde 0 a 1  /// Alternativa = color: rgba (0, 0, 0); opacity: 0.5;
+    color: #0a0;
+} */
+
+#h1 {
+    /* (width, color, style =  dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden*/
+    border: 2px #00f solid;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+#back {
+    font-size: 2rem;
+    background-color: blueviolet;
+    background-image: url('img/coffe.jpg');
+    background-size: cover;
+    /* background: #f00 url('img/coffe.jpg') repeat-y center bottom / 100px 100px (así podemos resumir muchas cosas)*/
+}
+
+.margin {
+    /* si queremos sumas el ancho completo de una etiqueta, tipo 'width', debemos sumar el padding, margin, border y el contenido.
+     esto se hace porque en el ancho total nunca está incluído eso */
+    background-color: chocolate;
+    margin: 15px;
+    padding: 30px;
+    border: solid 1px black;
+    overflow: scroll;
+    outline: 1px solid red;
+}
+
+.text{
+    font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
+    text-align: justify;
+    text-decoration: none;
+    text-shadow: 3px 5px 5px #00f;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+a:active {
+    color: red;
+}
+
+.new_list {
+    background-color: cyan;
+    list-style-type: none;
+}
