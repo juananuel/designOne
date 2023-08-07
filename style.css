@@ -4,11 +4,24 @@
     padding: 0;
   } */
 
-table, th, td {
-    border: 1px solid black;
-}
 table {
     width: 500px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; /* esto quita espacio extra entre celdas */
+}
+
+th {
+    background-color: orangered;
+    color: white;
+}
+
+tr:hover {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
 }
 
 img {
