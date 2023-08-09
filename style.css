@@ -24,6 +24,10 @@ tr:hover {
     cursor: pointer;
 }
 
+tfoot {
+    background-color: darkkhaki;
+}
+
 img {
     width: 300px;
 }
@@ -95,4 +99,29 @@ a:active {
 .new_list {
     background-color: cyan;
     list-style-type: none;
+}
+
+span {
+    display: block;
+}
+
+#position {
+    position: fixed;
+}
+
+.container {
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.left {
+    float: left;
+    width: 100px;
+    background-color: beige;
+}
+
+.right {
+    float: right;
+    width: 100px;
+    background-color: beige;
 }
